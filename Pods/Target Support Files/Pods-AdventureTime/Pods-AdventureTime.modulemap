@@ -1,0 +1,6 @@
+framework module Pods_AdventureTime {
+  umbrella header "Pods-AdventureTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

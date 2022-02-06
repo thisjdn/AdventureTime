@@ -1,0 +1,6 @@
+framework module Pods_AdventureTime_AdventureTimeUITests {
+  umbrella header "Pods-AdventureTime-AdventureTimeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

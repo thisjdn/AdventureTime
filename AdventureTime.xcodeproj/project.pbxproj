@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75ECBA1234DC51575B2ACBED /* Pods_AdventureTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D37DAE89E0C9A14838AC4 /* Pods_AdventureTimeTests.framework */; };
+		A4640ACB2EABABE10486218D /* Pods_AdventureTime_AdventureTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DB0CDE51588650C5489B33 /* Pods_AdventureTime_AdventureTimeUITests.framework */; };
+		D71F35F327AB6F65009D964A /* AdventureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F35F227AB6F65009D964A /* AdventureManager.swift */; };
+		D7A670E827A9E92A0025F754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A670E727A9E92A0025F754 /* AppDelegate.swift */; };
+		D7A670EA27A9E92A0025F754 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A670E927A9E92A0025F754 /* SceneDelegate.swift */; };
+		D7A670EC27A9E92A0025F754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A670EB27A9E92A0025F754 /* ViewController.swift */; };
+		D7A670EF27A9E92A0025F754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A670ED27A9E92A0025F754 /* Main.storyboard */; };
+		D7A670F127A9E92B0025F754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A670F027A9E92B0025F754 /* Assets.xcassets */; };
+		D7A670F427A9E92B0025F754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A670F227A9E92B0025F754 /* LaunchScreen.storyboard */; };
+		D7A670FF27A9E92B0025F754 /* AdventureTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A670FE27A9E92B0025F754 /* AdventureTimeTests.swift */; };
+		D7A6710927A9E92B0025F754 /* AdventureTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6710827A9E92B0025F754 /* AdventureTimeUITests.swift */; };
+		D7A6710B27A9E92B0025F754 /* AdventureTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A6710A27A9E92B0025F754 /* AdventureTimeUITestsLaunchTests.swift */; };
+		DB07393EA916D004C67E589E /* Pods_AdventureTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1267E70A0A5AF3B675FA2E22 /* Pods_AdventureTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A670FB27A9E92B0025F754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A670DC27A9E92A0025F754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A670E327A9E92A0025F754;
+			remoteInfo = AdventureTime;
+		};
+		D7A6710527A9E92B0025F754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A670DC27A9E92A0025F754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A670E327A9E92A0025F754;
+			remoteInfo = AdventureTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1267E70A0A5AF3B675FA2E22 /* Pods_AdventureTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventureTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D676BB88B92AC1189A883B /* Pods-AdventureTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTime.debug.xcconfig"; path = "Target Support Files/Pods-AdventureTime/Pods-AdventureTime.debug.xcconfig"; sourceTree = "<group>"; };
+		19ED2D3AE820CF152C07A4D3 /* Pods-AdventureTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTimeTests.release.xcconfig"; path = "Target Support Files/Pods-AdventureTimeTests/Pods-AdventureTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2054FA2167EA66C2DF154286 /* Pods-AdventureTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTime.release.xcconfig"; path = "Target Support Files/Pods-AdventureTime/Pods-AdventureTime.release.xcconfig"; sourceTree = "<group>"; };
+		231519B441821EE55DDC79B6 /* Pods-AdventureTime-AdventureTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTime-AdventureTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-AdventureTime-AdventureTimeUITests/Pods-AdventureTime-AdventureTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38DB0CDE51588650C5489B33 /* Pods_AdventureTime_AdventureTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventureTime_AdventureTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5D37DAE89E0C9A14838AC4 /* Pods_AdventureTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdventureTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F35F227AB6F65009D964A /* AdventureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureManager.swift; sourceTree = "<group>"; };
+		D7A670E427A9E92A0025F754 /* AdventureTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A670E727A9E92A0025F754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A670E927A9E92A0025F754 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7A670EB27A9E92A0025F754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7A670EE27A9E92A0025F754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A670F027A9E92B0025F754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A670F327A9E92B0025F754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A670F527A9E92B0025F754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A670FA27A9E92B0025F754 /* AdventureTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A670FE27A9E92B0025F754 /* AdventureTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeTests.swift; sourceTree = "<group>"; };
+		D7A6710427A9E92B0025F754 /* AdventureTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A6710827A9E92B0025F754 /* AdventureTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeUITests.swift; sourceTree = "<group>"; };
+		D7A6710A27A9E92B0025F754 /* AdventureTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F24DB7B6CCCD3E719EA38105 /* Pods-AdventureTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-AdventureTimeTests/Pods-AdventureTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9CDE843AB19972003510D2 /* Pods-AdventureTime-AdventureTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventureTime-AdventureTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-AdventureTime-AdventureTimeUITests/Pods-AdventureTime-AdventureTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A670E127A9E92A0025F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB07393EA916D004C67E589E /* Pods_AdventureTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A670F727A9E92B0025F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ECBA1234DC51575B2ACBED /* Pods_AdventureTimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A6710127A9E92B0025F754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4640ACB2EABABE10486218D /* Pods_AdventureTime_AdventureTimeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3814F9044EC0ACB36244EFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1267E70A0A5AF3B675FA2E22 /* Pods_AdventureTime.framework */,
+				38DB0CDE51588650C5489B33 /* Pods_AdventureTime_AdventureTimeUITests.framework */,
+				CE5D37DAE89E0C9A14838AC4 /* Pods_AdventureTimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F06578D76D51C7679CBB39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D676BB88B92AC1189A883B /* Pods-AdventureTime.debug.xcconfig */,
+				2054FA2167EA66C2DF154286 /* Pods-AdventureTime.release.xcconfig */,
+				231519B441821EE55DDC79B6 /* Pods-AdventureTime-AdventureTimeUITests.debug.xcconfig */,
+				FE9CDE843AB19972003510D2 /* Pods-AdventureTime-AdventureTimeUITests.release.xcconfig */,
+				F24DB7B6CCCD3E719EA38105 /* Pods-AdventureTimeTests.debug.xcconfig */,
+				19ED2D3AE820CF152C07A4D3 /* Pods-AdventureTimeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D71F35ED27AB6ED2009D964A /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D7A670EB27A9E92A0025F754 /* ViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		D71F35EE27AB6ED4009D964A /* M */ = {
+			isa = PBXGroup;
+			children = (
+				D71F35F227AB6F65009D964A /* AdventureManager.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		D71F35EF27AB6ED7009D964A /* V */ = {
+			isa = PBXGroup;
+			children = (
+				D7A670ED27A9E92A0025F754 /* Main.storyboard */,
+				D7A670F227A9E92B0025F754 /* LaunchScreen.storyboard */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		D7A670DB27A9E92A0025F754 = {
+			isa = PBXGroup;
+			children = (
+				D7A670E627A9E92A0025F754 /* AdventureTime */,
+				D7A670FD27A9E92B0025F754 /* AdventureTimeTests */,
+				D7A6710727A9E92B0025F754 /* AdventureTimeUITests */,
+				D7A670E527A9E92A0025F754 /* Products */,
+				59F06578D76D51C7679CBB39 /* Pods */,
+				3814F9044EC0ACB36244EFC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A670E527A9E92A0025F754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A670E427A9E92A0025F754 /* AdventureTime.app */,
+				D7A670FA27A9E92B0025F754 /* AdventureTimeTests.xctest */,
+				D7A6710427A9E92B0025F754 /* AdventureTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A670E627A9E92A0025F754 /* AdventureTime */ = {
+			isa = PBXGroup;
+			children = (
+				D7A670E727A9E92A0025F754 /* AppDelegate.swift */,
+				D7A670E927A9E92A0025F754 /* SceneDelegate.swift */,
+				D71F35EE27AB6ED4009D964A /* M */,
+				D71F35EF27AB6ED7009D964A /* V */,
+				D71F35ED27AB6ED2009D964A /* C */,
+				D7A670F027A9E92B0025F754 /* Assets.xcassets */,
+				D7A670F527A9E92B0025F754 /* Info.plist */,
+			);
+			path = AdventureTime;
+			sourceTree = "<group>";
+		};
+		D7A670FD27A9E92B0025F754 /* AdventureTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A670FE27A9E92B0025F754 /* AdventureTimeTests.swift */,
+			);
+			path = AdventureTimeTests;
+			sourceTree = "<group>";
+		};
+		D7A6710727A9E92B0025F754 /* AdventureTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6710827A9E92B0025F754 /* AdventureTimeUITests.swift */,
+				D7A6710A27A9E92B0025F754 /* AdventureTimeUITestsLaunchTests.swift */,
+			);
+			path = AdventureTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A670E327A9E92A0025F754 /* AdventureTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A6710E27A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTime" */;
+			buildPhases = (
+				B75A7C29EBA0E8D8EF8B21EB /* [CP] Check Pods Manifest.lock */,
+				D7A670E027A9E92A0025F754 /* Sources */,
+				D7A670E127A9E92A0025F754 /* Frameworks */,
+				D7A670E227A9E92A0025F754 /* Resources */,
+				8632F4128CF21B6F0F178DF8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureTime;
+			productName = AdventureTime;
+			productReference = D7A670E427A9E92A0025F754 /* AdventureTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A670F927A9E92B0025F754 /* AdventureTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A6711127A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTimeTests" */;
+			buildPhases = (
+				990A96D786080AB7C40FBFEB /* [CP] Check Pods Manifest.lock */,
+				D7A670F627A9E92B0025F754 /* Sources */,
+				D7A670F727A9E92B0025F754 /* Frameworks */,
+				D7A670F827A9E92B0025F754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A670FC27A9E92B0025F754 /* PBXTargetDependency */,
+			);
+			name = AdventureTimeTests;
+			productName = AdventureTimeTests;
+			productReference = D7A670FA27A9E92B0025F754 /* AdventureTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7A6710327A9E92B0025F754 /* AdventureTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A6711427A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTimeUITests" */;
+			buildPhases = (
+				1925508303CEDA5563FC07A6 /* [CP] Check Pods Manifest.lock */,
+				D7A6710027A9E92B0025F754 /* Sources */,
+				D7A6710127A9E92B0025F754 /* Frameworks */,
+				D7A6710227A9E92B0025F754 /* Resources */,
+				0B46CB8370B2A1B3177FC7E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A6710627A9E92B0025F754 /* PBXTargetDependency */,
+			);
+			name = AdventureTimeUITests;
+			productName = AdventureTimeUITests;
+			productReference = D7A6710427A9E92B0025F754 /* AdventureTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A670DC27A9E92A0025F754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D7A670E327A9E92A0025F754 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D7A670F927A9E92B0025F754 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D7A670E327A9E92A0025F754;
+					};
+					D7A6710327A9E92B0025F754 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D7A670E327A9E92A0025F754;
+					};
+				};
+			};
+			buildConfigurationList = D7A670DF27A9E92A0025F754 /* Build configuration list for PBXProject "AdventureTime" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A670DB27A9E92A0025F754;
+			productRefGroup = D7A670E527A9E92A0025F754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A670E327A9E92A0025F754 /* AdventureTime */,
+				D7A670F927A9E92B0025F754 /* AdventureTimeTests */,
+				D7A6710327A9E92B0025F754 /* AdventureTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A670E227A9E92A0025F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A670F427A9E92B0025F754 /* LaunchScreen.storyboard in Resources */,
+				D7A670F127A9E92B0025F754 /* Assets.xcassets in Resources */,
+				D7A670EF27A9E92A0025F754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A670F827A9E92B0025F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A6710227A9E92B0025F754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B46CB8370B2A1B3177FC7E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventureTime-AdventureTimeUITests/Pods-AdventureTime-AdventureTimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventureTime-AdventureTimeUITests/Pods-AdventureTime-AdventureTimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdventureTime-AdventureTimeUITests/Pods-AdventureTime-AdventureTimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1925508303CEDA5563FC07A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdventureTime-AdventureTimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8632F4128CF21B6F0F178DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventureTime/Pods-AdventureTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdventureTime/Pods-AdventureTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdventureTime/Pods-AdventureTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990A96D786080AB7C40FBFEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdventureTimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75A7C29EBA0E8D8EF8B21EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdventureTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A670E027A9E92A0025F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A670EC27A9E92A0025F754 /* ViewController.swift in Sources */,
+				D7A670E827A9E92A0025F754 /* AppDelegate.swift in Sources */,
+				D71F35F327AB6F65009D964A /* AdventureManager.swift in Sources */,
+				D7A670EA27A9E92A0025F754 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A670F627A9E92B0025F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A670FF27A9E92B0025F754 /* AdventureTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A6710027A9E92B0025F754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A6710B27A9E92B0025F754 /* AdventureTimeUITestsLaunchTests.swift in Sources */,
+				D7A6710927A9E92B0025F754 /* AdventureTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A670FC27A9E92B0025F754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A670E327A9E92A0025F754 /* AdventureTime */;
+			targetProxy = D7A670FB27A9E92B0025F754 /* PBXContainerItemProxy */;
+		};
+		D7A6710627A9E92B0025F754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A670E327A9E92A0025F754 /* AdventureTime */;
+			targetProxy = D7A6710527A9E92B0025F754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A670ED27A9E92A0025F754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A670EE27A9E92A0025F754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A670F227A9E92B0025F754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A670F327A9E92B0025F754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A6710C27A9E92B0025F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7A6710D27A9E92B0025F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A6710F27A9E92B0025F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D676BB88B92AC1189A883B /* Pods-AdventureTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTime/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A6711027A9E92B0025F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2054FA2167EA66C2DF154286 /* Pods-AdventureTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTime/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7A6711227A9E92B0025F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24DB7B6CCCD3E719EA38105 /* Pods-AdventureTimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventureTime.app/AdventureTime";
+			};
+			name = Debug;
+		};
+		D7A6711327A9E92B0025F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19ED2D3AE820CF152C07A4D3 /* Pods-AdventureTimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventureTime.app/AdventureTime";
+			};
+			name = Release;
+		};
+		D7A6711527A9E92B0025F754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231519B441821EE55DDC79B6 /* Pods-AdventureTime-AdventureTimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventureTime;
+			};
+			name = Debug;
+		};
+		D7A6711627A9E92B0025F754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9CDE843AB19972003510D2 /* Pods-AdventureTime-AdventureTimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NNCB58FYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdn.AdventureTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventureTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A670DF27A9E92A0025F754 /* Build configuration list for PBXProject "AdventureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6710C27A9E92B0025F754 /* Debug */,
+				D7A6710D27A9E92B0025F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A6710E27A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6710F27A9E92B0025F754 /* Debug */,
+				D7A6711027A9E92B0025F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A6711127A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6711227A9E92B0025F754 /* Debug */,
+				D7A6711327A9E92B0025F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A6711427A9E92B0025F754 /* Build configuration list for PBXNativeTarget "AdventureTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A6711527A9E92B0025F754 /* Debug */,
+				D7A6711627A9E92B0025F754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A670DC27A9E92A0025F754 /* Project object */;
+}
